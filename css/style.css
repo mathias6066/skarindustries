@@ -1,90 +1,9 @@
 body{
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
   background-color:#f4f4f4;
 }
-
-
-/* Global */
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-}
-
-ul{
- margin: 0;
- padding: 0;
-}
-
-.button_1{
-  height: 38px;
-  background: #e8491d;
-  border: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff;
-}
-
-.dark{
-  padding: 15px;
-  background: #35424a;
-  color: #ffffff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* header */
-header{
-  background: #35424a;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #e8491d 3px solid;
-}
-
-header a{
-  color: #ffffff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header li{
-  float: left;
-  display:inline;
-  padding: 0 20px 0 20px;
-}
-
-header #branding{
-  float:left;
-}
-
-header #branding h1{
-  margin:0;
-}
-
-/* visitr counter*/
-.counter{
-  float:right;
-  margin-top: -35px;
-}
-header nav{
-  float:right;
-  margin-top: 13px;
-}
-
-header .highlight, header .current a{
-  color:#e8491d;
-  font-weight: bold;
-}
-
-header a:hover{
-  color: #cccccc;
-  font-weight: bold;
-}
-
 .loginBox
 {
 	position: absolute;
@@ -109,9 +28,7 @@ header a:hover{
 }
 h2
 {
-	margin: 0;
-	padding: 0 0 20px;
-	color: #e8491d;
+	color: #fff;
 	text-align: center;
 }
 .loginBox p
@@ -139,7 +56,7 @@ h2
 }
 ::placeholder
 {
-	color: rgba(255,255,255,.5);
+	color: #35424a;
 }
 .loginBox input[type="submit"]
 {
@@ -148,7 +65,7 @@ h2
 	height: 40px;
 	color: #fff;
 	font-size: 16px;
-	background: #e8491d;
+	background:#e8491d;
 	cursor: pointer;
 	border-radius: 20px;
 }
@@ -165,104 +82,172 @@ h2
 	text-decoration: none;
 }
 
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
 
-/* showcase*/
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
 #showcase{
-  min-height: 400px;
+  min-height:400px;
   background:url('../img/showcase.jpg') no-repeat 0 -400px;
-  text-align: center;
-  color: #ffffff;
+  text-align:center;
+  color:#ffffff;
 }
 
 #showcase h1{
-  margin-top: 100px;
-  font-size: 55px;
-  margin-top: 10px;
-}
-
-#showcase h2{
-  margin-top: -60px;
-  font-size: 35px;
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
 }
 
 #showcase p{
-  font-size: 20px;
+  font-size:20px;
 }
-/* Newsletter*/
+
+/* Newsletter */
 #newsletter{
-  padding: 15px;
-  color: #ffffff;
-  background: #35424a;
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
 }
 
 #newsletter h1{
-  float: left;
+  float:left;
 }
 
 #newsletter form {
-  float: right;
-  margin-top: 15px;
+  float:right;
+  margin-top:15px;
 }
 
 #newsletter input[type="email"]{
-  padding: 4px;
-  height: 24px;
-  width: 250px;
+  padding:4px;
+  height:25px;
+  width:250px;
 }
-/* boxes*/
 
+/* Boxes */
 #boxes{
-  margin-top: 20px;
+  margin-top:20px;
 }
 
 #boxes .box{
   float:left;
   text-align: center;
-  width: 30%;
-  padding: 10px;
+  width:30%;
+  padding:10px;
 }
 
 #boxes .box img{
-  width: 90px;
+  width:90px;
 }
 
-/* sidebar */
-
+/* Sidebar */
 aside#sidebar{
-  float: right;
-  width: 30%;
-  margin-top: 10px;
+  float:right;
+  width:30%;
+  margin-top:10px;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
-  width: 90%;
-  padding: 5px;
+  width:90%;
+  padding:5px;
 }
 
-/* main-col*/
+/* Main-col */
 article#main-col{
-  float: left;
-  width: 65%;
+  float:left;
+  width:65%;
 }
 
 /* Services */
 ul#services li{
   list-style: none;
-  padding: 20px;
+  padding:20px;
   border: #cccccc solid 1px;
-  margin-bottom: 5px;
-  background: #e6e6e6;
+  margin-bottom:5px;
+  background:#e6e6e6;
 }
 
 footer{
-  padding: 20px;
-  margin-top: 20px;
-  color: #ffffff;
-  background-color: #e8491d;
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
   text-align: center;
 }
 
-/* */
+/* Media Queries */
 @media(max-width: 768px){
   header #branding,
   header nav,
@@ -272,25 +257,26 @@ footer{
   #boxes .box,
   article#main-col,
   aside#sidebar{
-    float: none;
-    text-align: center;
-    width: 100%;
+    float:none;
+    text-align:center;
+    width:100%;
   }
+
   header{
-    padding-bottom: 20px;
+    padding-bottom:20px;
   }
 
   #showcase h1{
-    margin-top: 40px;
+    margin-top:40px;
   }
 
   #newsletter button, .quote button{
-    display: block;
-    width: 100%;
+    display:block;
+    width:100%;
   }
 
-  #newsletter form input[type="email"], .quote textarea{
+  #newsletter form input[type="email"], .quote input, .quote textarea{
     width:100%;
-    margin-bottom: 5px;
+    margin-bottom:5px;
   }
 }
