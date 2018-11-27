@@ -20,7 +20,6 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li class="current"><a href="services.html">Services</a></li>
-            <li><a href="login.html">login | sign up</a></li>
           </ul>
         </nav>
       </div>
@@ -31,7 +30,12 @@
         <h1>Subscribe To Our newsletter</h1>
         <form>
           <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
+          <button type="button" class="button_1" onclick="changeText(this)">Subscribe</button>
+          <script>
+          function changeText(id){
+            id.innerHTML = 'Subscribed!';
+          }
+          </script>
         </form>
       </div>
     </section>
@@ -40,6 +44,7 @@
       <div class="container">
        <article id="main-col">
          <h1 class="page-title">Services</h1>
+          <h4>We provode</h4>
          <ul id="services">
            <li>
            <h3>Website Design</h3>

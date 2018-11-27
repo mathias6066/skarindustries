@@ -20,7 +20,6 @@
             <li><a href="index.html">Home</a></li>
             <li class="current"><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="login.html">login | sign up</a></li>
           </ul>
         </nav>
       </div>
@@ -31,7 +30,12 @@
         <h1>Subscribe To Our newsletter</h1>
         <form>
           <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
+          <button type="button" class="button_1" onclick="changeText(this)">Subscribe</button>
+          <script>
+          function changeText(id){
+            id.innerHTML = 'Subscribed!';
+          }
+          </script>
         </form>
       </div>
     </section>
@@ -41,18 +45,19 @@
        <article id="main-col">
          <h1 class="page-title">About Us</h1>
          <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, sapien et commodo tincidunt, ligula est consequat mauris, eget vulputate nibh libero et eros. Praesent augue lacus, lacinia in blandit et.
+          SKAR INDUSTRIES is a company with many different areas of expertise, but the main subject area is softwear development and pentesting(<a href="https://en.wikipedia.org/wiki/Penetration_test">Penetration testing</a>)
+            but we also develop technologies and "secret" weapons for the military
           </p>
-
+          but we also develop technologies and "secret" weapons for the military
          <p>
-            Svolutpat eget turpis. Aliquam imperdiet tortor nec dolor dignissim, a interdum sem placerat. Fusce fringilla tortor ante, ac gravida risus vulputate non. Nam efficitur molestie nulla. Proin semper velit rutrum interdum lobortis. Donec aliquet dapibus tincidunt. Phasellus quis dui et eros pretium pulvinar. Donec at blandit sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi rhoncus nunc nisi, non tristique nunc feugiat vitae.
        </article>
 
        <aside id="sidebar">
          <div class="dark">
-           <h3>What We Do</h3>
+           <h3>are "history"</h3>
            <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, sapien et commodo tincidunt, ligula est consequat mauris,
+             SKAR INDUSTRIES is a company stifted in 2018 by CEO and Founder Mthias Skar.
+             Mathais was 14 years old when he started the company and only after 2 weeks had 4 employes that worked with(Design, Code, marketing and Idea's)
            </p>
           </div>
        </aside>
