@@ -1,0 +1,64 @@
+DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport:" content="width=device-width">
+    <meta name="description:" content="Affordeble and professional websites">
+    <meta name="keywords:" content="web design, Affordeble web design, professional and Affordeble web design">
+    <meta name="author:" content="Mathias Skar">
+    <meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Mathias Skar | About</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <a href="index.html"><h1><span class="highlight">SKAR</span> INDUSTRIES</h1></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <!--<li><a href="login.html">login | sign up</a></li>-->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="button" class="button_1" onclick="changeText(this)">Subscribe</button>
+          <script>
+          function changeText(id){
+            id.innerHTML = 'Subscribed!';
+          }
+          </script>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+       <article id="main-col">
+         <h1 class="page-title">About Us</h1>
+         
+       </article>
+
+       <aside id="sidebar">
+         <div class="dark">
+           
+          </div>
+       </aside>
+      </div>
+    </section>
+    <footer>
+      <p>Skar Industries Design, Copyright &copy; 2018-2019</p>
+    </footer>
+  </body>
+</html>
